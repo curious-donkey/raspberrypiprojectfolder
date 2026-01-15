@@ -1,0 +1,25 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "\\Q_lgpio.py\\E"
+      },
+      {
+        "pattern": "\\Qpicarx/.*\\.py\\E"
+      },
+      {
+        "pattern": "\\Qrobothat/.*\\.py\\E"
+      },
+      {
+        "pattern": "\\Qexample/.*\\.py\\E"
+      },
+      {
+        "pattern": "\\Q.*\\.py\\E"
+      },
+      {
+        "pattern": "\\Q.*\\.json\\E"
+      }
+    ]
+  },
+  "bundles": []
+}

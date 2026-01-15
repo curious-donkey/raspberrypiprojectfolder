@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <p>Movement Application Page</p>
+  
+  <button onclick="goToAIControl()">AI Control</button>
+  <button onclick="goToAlexaMode()">Alexa Mode</button>
+  
+  <button onclick="goToMainMenu()">Main Menu</button>
+
+
+  <button onclick="startCar()">Start Car</button>
+
+
+  <button onclick="stopCar()">Stop Car</button>
+
+
+  
+
+
+
+  <h1>Off</h1>
+  <!-- make a function for having this be conditional on the websocket connection status -->
+
+  <header>Controls:</header>
+
+  <header>Use the buttons to control the car's movement.</header>
+
+  <header>Use W, A, S, D keys for manual movement:</header>
+  <header>Forward: w</header>
+  <header>Backward: s</header>
+  <header>Left: a</header>
+  <header>Right: d</header>
+
+  <header>Use I, J, K, L keys for controlling the camera mount:</header>
+  <header>Increase speed: i</header>
+  <header>Decrease speed: k</header>
+  <header>Turn left: j</header>
+  <header>Turn right: l</header>
+
+  <header>Stop movement: spacebar</header>
+
+  <header> Car needs to be "started" to use manual controls.</header>
+
+  <script src="../js/app.js"></script>
+
+  <p> KeyStroke: <input type="text" onkeydown="controlCar(event)"></p>
+  <!-- this is for capturing keystrokes, click into the box and press keys -->
+   <!-- this will be replaced with a better input system at a later point-->
+
+</body>
+
+</html>

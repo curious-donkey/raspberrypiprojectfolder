@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ControllerapplicationApplication",
+            "request": "launch",
+            "mainClass": "ControllerapplicationApplication",
+            "projectName": "controllerapplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ControllerapplicationApplication<controllerapplication>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "nathanielnarofsky.todolist.controllerapplication.ControllerapplicationApplication",
+            "projectName": "controllerapplication",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -12,3 +12,5 @@ public class HelloResource {
         return "Hello, World!";
     }
 }
+
+// how to get position in string

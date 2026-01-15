@@ -1,0 +1,24 @@
+# Use official ARM cross-compilation image
+FROM dockcross/linux-armv7-lts
+
+# Set working directory
+WORKDIR /work
+
+# Install Java development tools for JNI headers
+RUN apt-get update && apt-get install -y \
+    openjdk-17-jdk-headless \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set JAVA_HOME
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+
+# Copy source files
+COPY lgpio_wrap.c .
+COPY src/ src/
+COPY build_cross.sh .
+
+# Make build script executable
+RUN chmod +x build_cross.sh
+
+# Default command
+CMD ["./build_cross.sh"]

@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.home": "C:\\graalvm-jdk-25.0.1+8.1",
+    "java.jdt.ls.java.home": "C:\\graalvm-jdk-25.0.1+8.1",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\graalvm-jdk-25.0.1+8.1",
+            "default": true
+        }
+    ]
+}

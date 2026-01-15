@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <p>This is the login page.</p>
+  <button onclick="location.href='webpage/home.html'">Go to Home Page</button>
+  <button type="button" onclick="location.href='webpage/about.html'">Go to About Page</button>
+  <button type="button" onclick="location.href='webpage/contact.html'">Go to Contact Page</button>
+  <button type="button" onclick="location.href='webpage/devices.html'">Go to Devices Page</button>
+  <button type="button" onclick="location.href='webpage/signup.html'">Go to Signup Page</button>
+  <button type="button" onclick="location.href='webpage/login.html'">Go to Login Page</button>
+  <button type="button" onclick="location.href='webpage/downloads.html'">Go to Downloads</button>
+  <button type="button" onclick="location.href='webpage/forgotpassword.html'">Forgot Password</button>
+  <button type="button" onclick="location.href='webpage/changepassword.html'">Reset Password</button>
+  <button type="button" onclick="location.href='webpage/profile.html'">Go to Profile Page</button>
+  <button type="button" onclick="location.href='application/main.html'">Go to the Application Page</button>
+
+
+  <form onsubmit="logIn(document.getElementById('username').value, document.getElementById('password').value); return false;"> 
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Log In">
+  </form>
+
+
+
+
+</body>
+</html>
